@@ -1,8 +1,1 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Aplicación React en la que un caracter x se mueve por la pantalla respondiendo a comandos de voz. Los comandos disponibles son: "arriba", "abajo", "izquierda", "derecha" (dirección de movimiento continuo), "para" (detiene el movimiento), "rápido", "lento" y "normal" (cambian la velocidad) y "supercalifragilisticoespialidoso (reinicia posicion)". Ademas se muestra en pantalla el estado del micrófono, el transcript en tiempo real y el último comando reconocido.
